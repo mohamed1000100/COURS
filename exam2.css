@@ -1,0 +1,611 @@
+header{
+
+background-image: url('images/slideshow-1.jpg');
+background-size:100% 100% ;
+margin-bottom: 70px;
+
+}
+.navbar{
+    box-shadow: #eee;
+
+}
+
+.navbar-nav{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large ;
+    color: rgb(252, 252, 252);
+  
+
+   
+}
+.text{
+
+width: 30%;
+text-align: center;
+     
+}
+.t1{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+   
+}
+ 
+.set{
+
+    top: 20%;
+
+}
+
+.about{
+
+margin-bottom:  20px;
+
+}
+
+
+
+.about h1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 50px;
+text-align: center;
+}
+
+.MO h2{
+
+   color: black;
+   font-size: 60px;
+   margin-top: 30px;
+}
+ 
+
+.MO h1{
+
+color: rgba(0, 0, 0, 0.1);
+font-size: 100px;
+
+}
+
+.ph4{
+
+    
+    font-size: larger;
+    margin: auto;
+}
+
+
+.skill h3 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .skill h3 span {
+    color: #212529;
+    padding: 3px 5px;
+    float: right;
+  }
+  .skill .progress {
+    height: 4px;
+    background-color: #eee;
+    position: relative;
+    border-radius: 8px;
+  }
+  .skill .progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--main-color);
+    border-radius: 8px 0 0 8px;
+  }
+  .skills .our-skill .skill {
+    margin-bottom: 20px;
+  }
+  .head2{
+
+   margin-bottom: 50px;
+
+  }
+  .head2 h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgba(0, 0, 0, 0.1);
+   font-size: 100px;
+
+  }
+  .head2 h5{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+    margin-top: 40px;
+    
+  }
+  .ph5{
+      color: #666;
+      font-size: large;
+  }
+  .team-layer {
+    background-color: #f25454d4;
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 9999999;
+  }
+  .member-info h6 {
+    transition: 0.4s;
+  }
+  .icon-team {
+    transition: 0.4s;
+  }
+  .team-member:hover .icon-team {
+    bottom: 50% !important;
+    opacity: 1 !important;
+  }
+  .team-member:hover .team-layer {
+    opacity: 1;
+  }
+  .team-member img {
+    transition: 0.4s;
+  }
+  .team-member:hover img {
+    transform: scale(1.1);
+  }
+  .team-member:hover .member-info h6 {
+    color: var(--main-color);
+  }
+  .member-info p {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 767px) {
+    .team-member img {
+      width: 100%;
+    }
+    .team-member {
+      margin-bottom: 20px;
+    }
+  }
+
+  .assk{
+
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .assk h3 {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+  }
+
+  .assk .btn {
+
+    width: 200px;
+  }
+  .services{
+
+    background-color: rgb(231, 232, 228);
+
+  }
+  .head3 h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgba(0, 0, 0, 0.1);
+     font-size: 100px;
+  }
+
+  .head3 h5{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 60px;
+    margin-top: 40px;
+  }
+
+   .ph6{
+    color: #666;
+    font-size: large;
+    margin-bottom: 20px;
+
+}
+.item1 h4{
+
+padding-left:5px;
+margin: bottom 10px;
+font-size: large;
+
+}
+
+.item1 i{
+
+    color: #f38383;
+    font-size: 30px;
+    padding-right:5px;
+    margin-bottom: 10px;
+
+}
+
+.feri{
+
+  width: 300px;
+    font-size: large;
+    color:rgb(65, 61, 61);
+
+
+}
+
+.item2 h4{
+
+    padding-left:5px;
+    margin: bottom 10px;
+    font-size: large;
+   
+    
+    }
+    
+    .item2 i{
+    
+        color: #f38383;
+        font-size: 30px;
+        padding-right:5px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .feri2{
+    
+        font-size: larger;
+        color:rgb(65, 61, 61);
+        width: 300px;
+    }
+
+  .item3 h4{
+
+        padding-left:5px;
+        margin: bottom 10px;
+        font-size: large;
+       
+        
+        }
+        
+    .item3 i{
+        
+        color: #f38383;
+        font-size: 30px;
+         padding-right:5px;
+         margin-bottom: 10px;
+        
+        }
+        
+  .feri3{
+        
+     font-size: larger;
+     color:rgb(65, 61, 61);
+     width: 300px;
+     
+     
+        }
+        .item4 h4{
+
+            padding-left:5px;
+            margin: bottom 10px;
+            font-size: large;
+            
+            }
+            
+            .item4 i{
+            
+                color: #f38383;
+                font-size: 30px;
+                padding-right:5px;
+                margin-bottom: 10px;
+            
+            }
+            
+            .feri4{
+            
+                font-size: larger;
+                color:rgb(65, 61, 61);
+                width: 300px;
+            
+            
+            }
+            
+            .item5 h4{
+            
+                padding-left:5px;
+                margin: bottom 10px;
+                font-size: large;
+              
+                
+                }
+                
+                .item5 i{
+                
+                    color: #f38383;
+                    font-size: 30px;
+                    padding-right:5px;
+                    margin-bottom: 10px;
+                
+                }
+                
+                .feri5{
+                
+                    font-size: larger;
+                    color:rgb(65, 61, 61);
+                    width: 300px;
+                    
+                }
+            
+              .item6 h4{
+            
+                    padding-left:5px;
+                    margin: bottom 10px;
+                    font-size: large;
+                 
+                    
+                    }
+                    
+                .item6 i{
+                    
+                    color: #f38383;
+                    font-size: 30px;
+                     padding-right:5px;
+                     margin-bottom: 10px;
+                    
+                    }
+                    
+              .feri6{
+                    
+                 font-size: larger;
+                 color:rgb(65, 61, 61);
+                 width: 300px;
+                
+                    }  
+                    
+                    .item7 h4{
+
+                        padding-left:5px;
+                        margin: bottom 10px;
+                        font-size: large;
+                     
+                        }
+                        
+                        .item7 i{
+                        
+                            color: #f38383;
+                            font-size: 30px;
+                            padding-right:5px;
+                            margin-bottom: 10px;
+                        
+                        }
+                        
+                        .feri7 {
+                        
+                            font-size: larger;
+                            color:rgb(65, 61, 61);
+                            width: 300px;
+                           
+                        
+                        
+                        }
+                        
+                        .item8 h4{
+                        
+                            padding-left:5px;
+                            margin: bottom 10px;
+                            font-size: large;
+                           
+                            }
+                            
+                            .item8 i{
+                            
+                                color: #f38383;
+                                font-size: 30px;
+                                padding-right:5px;
+                                margin-bottom: 10px;
+                            
+                            }
+                            
+                            .feri8{
+                            
+                                font-size: larger;
+                                color:rgb(65, 61, 61);
+                                width: 300px;
+                               
+                            }
+                        
+                          .item9 h4{
+                        
+                                padding-left:5px;
+                                margin: bottom 10px;
+                                font-size: large;
+                               
+                                
+                                }
+                                
+                            .item9 i{
+                                
+                                color: #f38383;
+                                font-size: 30px;
+                                 padding-right:5px;
+                                 margin-bottom: 10px;
+                                
+                                }
+                                
+                          .feri9{
+                                
+                             font-size: larger;
+                             color:rgb(65, 61, 61);
+                             width: 300px;
+                            
+                                }      
+                            
+
+  .carousel-indicators {
+    bottom: -25px;
+    margin-bottom: 0;
+  }
+  .carousel-indicators .active {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #212529 !important;
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+  }
+  .client-info img {
+    width: 150px;
+    height: 150px;
+  }
+  .client-item {
+    color: #666;
+  }
+  /* End client */
+  /* start contact */
+  .contact {
+    background-color: #fafafa;
+  }
+  .contact-info {
+    border-bottom: 1px solid #eee;
+  }
+  .contact-info:last-child {
+    border: none;
+  }
+  .con-icon {
+    color: var(--main-color);
+    width: 45px;
+  }
+  .con-form form input,
+  .con-form form textarea {
+    width: 100%;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #eee;
+    padding: 14px 18px;
+    margin-bottom: 20px;
+  }
+  .con-form form input::placeholder,
+  .con-form form textarea::placeholder {
+    color: #c6beb7;
+  }
+  .con-form form input:focus {
+    outline-color: var(--main-color);
+  }
+  .con-form form textarea:focus {
+    outline-color: var(--main-color);
+  }
+  .con-form a {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .con-form a:hover {
+    background-color: #f38383;
+    color: #fff;
+  }
+
+
+  .head4 h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgba(0, 0, 0, 0.1);
+     font-size: 80px;
+     margin-bottom: 35px;
+  }
+  .head4 h5{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 60px;
+    margin-top: 35px;
+    
+  }
+  .head5 h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgba(0, 0, 0, 0.1);
+     font-size: 80px;
+  }
+
+  .head5 h5{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+   .ph7{
+    color: #666;
+    font-size: large;
+    margin-bottom: 20px;
+   }
+   .adv1 h2 {
+       font-size: 25px ;
+   }
+
+
+   .brand {
+
+background-image: url('images/mmmm.png');
+background-size: auto;
+margin-bottom: 0px;
+margin-top: 20px;
+
+   }
+.con{
+    margin: auto;
+}
+   .con h2 {
+
+    font-size: x-large;
+    color: #fff;
+
+   }
+   .con h5 {
+       font-size: small;
+       color: rgb(162, 154, 154);
+   }
+   .con2 h2 {
+
+    font-size: x-large;
+    color: #fff;
+
+   }
+   .con2 h5 {
+       font-size: small;
+       color: rgb(191, 189, 189);
+   }
+
+   .con3 h2 {
+
+    font-size: x-large;
+    color: #fff;
+
+   }
+   .con3 h5 {
+       font-size: small;
+       color: rgb(191, 189, 189);
+   }
+ .last{
+
+  background-color: #212529;
+  box-shadow: #eee;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+
+ }
+
+ .end {
+
+color: #eee;
+ }
+.booom h5 {
+
+color: #eee;
+font-size: larger;
+
+}
